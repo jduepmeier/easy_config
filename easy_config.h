@@ -20,7 +20,7 @@ struct ECCategory {
 typedef struct EConfig {
 	const char* file;
 	char* delim;
-	unsigned lastid;
+	int lastid;
 	ECCategory* categories;
 	void* user_param;
 } EConfig;
